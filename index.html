@@ -1,59 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   <title>Spa Booking Assistant</title>
+
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      color: #222;
-      max-width: 700px;
-      margin: 60px auto;
+      background: linear-gradient(135deg, #f7f2ff, #eef6ff);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 20px;
-      line-height: 1.6;
-    }
-
-    h1 {
-      color: #444;
-    }
-
-    a {
-      color: #0077cc;
-      text-decoration: none;
+      color: #222;
     }
 
     .card {
+      width: 100%;
+      max-width: 760px;
       background: white;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      border-radius: 24px;
+      padding: 50px;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    }
+
+    .logo {
+      width: 82px;
+      height: 82px;
+      border-radius: 22px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 18px;
+      color: #2d2d2d;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      line-height: 1.7;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .links {
+      display: grid;
+      gap: 16px;
+    }
+
+    .link-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f8f8fc;
+      padding: 20px 24px;
+      border-radius: 18px;
+      text-decoration: none;
+      color: #222;
+      transition: 0.2s ease;
+      border: 1px solid #ececf5;
+    }
+
+    .link-card:hover {
+      transform: translateY(-2px);
+      background: #f1f3ff;
+    }
+
+    .link-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .icon {
+      font-size: 28px;
+    }
+
+    .link-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .link-desc {
+      font-size: 14px;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    .arrow {
+      font-size: 22px;
+      color: #888;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .card {
+        padding: 35px 25px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .subtitle {
+        font-size: 17px;
+      }
     }
   </style>
 </head>
+
 <body>
+
   <div class="card">
+
+    <img
+      class="logo"
+      src="https://raw.githubusercontent.com/mrALX13/spa-booking-assistant-docs/main/logo.png"
+      alt="Spa Booking Assistant Logo"
+    />
+
     <h1>Spa Booking Assistant</h1>
 
-    <p>
+    <p class="subtitle">
       Messenger automation assistant for spa and massage salons.
+      Supports multilingual communication, automated booking flow,
+      and Telegram notifications for salon staff.
     </p>
 
-    <h3>Documents</h3>
+    <div class="section-title">
+      Documentation
+    </div>
 
-    <ul>
-      <li>
-        <a href="./privacy-policy.html">
-          Privacy Policy
-        </a>
-      </li>
+    <div class="links">
 
-      <li>
-        <a href="./terms-of-service.html">
-          Terms of Service
-        </a>
-      </li>
-    </ul>
+      <a class="link-card" href="./privacy-policy.html">
+
+        <div class="link-left">
+          <div class="icon">🔒</div>
+
+          <div>
+            <div class="link-title">
+              Privacy Policy
+            </div>
+
+            <div class="link-desc">
+              Information about data handling and privacy.
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow">→</div>
+      </a>
+
+      <a class="link-card" href="./terms-of-service.html">
+
+        <div class="link-left">
+          <div class="icon">📄</div>
+
+          <div>
+            <div class="link-title">
+              Terms of Service
+            </div>
+
+            <div class="link-desc">
+              Terms and conditions of using the service.
+            </div>
+          </div>
+        </div>
+
+        <div class="arrow">→</div>
+      </a>
+
+    </div>
+
+    <div class="footer">
+      © 2026 Spa Booking Assistant
+    </div>
+
   </div>
+
 </body>
 </html>

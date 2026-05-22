@@ -1,0 +1,46 @@
+Privacy Policy — Spa Booking Assistant
+
+Effective date: May 2026
+
+Spa Booking Assistant is a Messenger automation tool used by spa and massage salons to communicate with customers and receive booking requests.
+
+Information We Collect
+
+The application may process:
+
+Messenger user messages
+Selected language
+Booking request information
+Facebook Page identifiers
+Technical logs for debugging and service stability
+
+The application does not collect sensitive personal information such as passwords, payment data, or government identification documents.
+
+How Information Is Used
+
+Information is used only for:
+
+responding to customer inquiries
+processing booking requests
+sending notifications to salon administrators
+improving service stability and multilingual support
+Data Sharing
+
+User data is not sold or shared with third parties for advertising purposes.
+
+Booking information may be forwarded to the connected salon staff through integrated messaging services such as Telegram for operational purposes.
+
+Data Storage
+
+Some operational data may be temporarily stored using secure cloud infrastructure to maintain conversation flow and booking processing.
+
+User Rights
+
+Users may stop interacting with the application at any time by discontinuing use of the Messenger conversation.
+
+Contact
+
+For questions regarding this Privacy Policy, contact:
+
+Spa Booking Assistant Support
+Email: Alex.yugay13@gmail.com
